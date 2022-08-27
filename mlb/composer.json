@@ -1,0 +1,21 @@
+{
+    "name": "mlb/restclient",
+    "description": "REST Client",
+    "type": "library",
+    "require": {
+        "ext-curl": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RestClient\\": "src/RestClient"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bartosz Borowiec",
+            "email": "bartek@malba.pl"
+        }
+    ],
+    "minimum-stability": "dev"
+}
